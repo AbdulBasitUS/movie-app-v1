@@ -1,9 +1,9 @@
 
 const HeaderIcon = ({Icon, title}) => {
   return (
-    <div>
+    <div className="mx-4 flex flex-col cursor-pointer hover:text-white active:text-red-200 lg:mx-6">
         <Icon className="h-8" />
-        <p>{title}</p>
+        <p className="my-2">{title}</p>
     </div>
   )
 }
